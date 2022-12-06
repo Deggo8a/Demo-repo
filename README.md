@@ -10,15 +10,11 @@ This is the site I want you to scrape:
 
 https://weedmaps.com/dispensaries/flavors-santa-cruz
 
-In this repository, there is a file named WebScrapper.py, in this file I have laid out the code sctructure. Use this file to write and test your code. 
+In this repository, there is a file named WebScrapper.py, in this file I have laid out the code structure. Use this file to write and test your code. 
 
 ## Tips
     - Python Libraries to use (you may also use others):
         - requests, beautifulsoup4, os, csv
     - to run and test your script, in the Terminal run:
         `python WebScraper.py`
-<<<<<<< HEAD
-    - You can add to the structure of the code I provided as well. If you see a need to write another funtion that you can use, then by all means get to writing it. Just keep in in the same structure. Meaning you have your set of function definitions and then your MAIN stub. The main stub, is the main program that is run when you run it in the terminal.  `
-=======
-    - You can add to the structure of the code I provided as well. If you see a need to write another funtion that you can use, then by all means get to writing it. Just keep in in the same structure. Meaning you have your set of function definitions and then your MAIN stub. The main stub, is the main program that is run when you run it in the terminal.  
->>>>>>> f7d5e86ad067c0dec1a67087ffe71c422fc29bd4
+    - You can add to the structure of the code I provided as well. If you see a need to write another function that you can use, then by all means get to writing it. Just keep in in the same structure. Meaning you have your set of function definitions and then your MAIN stub. The main stub, is the main program that is run when you run it in the terminal.  `
