@@ -14,7 +14,7 @@ def getProductPrices(soup):
     product_elements = soup.find_all('li', class_= re.compile(r'.ListingItemContainer.'))
     for pe in product_elements:
         getProductDetails(pe)
-        break
+        
     return
 
 def getProductDetails(product_details):
