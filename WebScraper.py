@@ -1,9 +1,12 @@
-## Import Statments 
+## Import Statements 
 from bs4 import BeautifulSoup
 import os 
 import csv
 import requests 
 import re
+import pandas as pd
+import json
+
 
 
 
@@ -22,11 +25,9 @@ def getProductDetails(product_details):
     product_price = product_details.find('div', re.compile(r'text__Text-sc.')).text
     print(product_name, product_price)
     
+    return
 
-## Creating the Data Frame
-
-## Exporting the DataFrame as csv
-
+ 
 ## main stub
 
 if __name__ == "__main__":
@@ -49,3 +50,13 @@ if __name__ == "__main__":
     soup = BeautifulSoup(page.content, "html.parser")
     
     getProductPrices(soup)
+    
+
+    ## Creating the Data Frame
+
+
+## Exporting the DataFrame as csv
+
+
+
+
